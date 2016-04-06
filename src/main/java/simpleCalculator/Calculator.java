@@ -11,7 +11,12 @@ public class Calculator {
 		result=x-y;
 	}
 	
+	public void multi(int x, int y) {
+		result=x*y;
+	}
+	
 	public int getResult() {
 		return result;
 	}
+	
 }
